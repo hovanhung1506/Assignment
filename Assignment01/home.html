@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Lập trình viên, Lập trình Java, Lập trình .Net, Lập trình Web, PHP, MySQL, Lập trình di động, Android, iOS, mobile, tester, Kiểm thử phần mềm, thiết kế phần mềm, kỹ sư cầu nối, da nang, đà nẵng, học lập trình tại đà nẵng, hoc lap trinh tai da nang, nơi tốt nhất học lập trình tại đà nẵng, trung tâm đào tạo lập trình tại đà nẵng, đào tạo lập trình viên tại đà nẵng, việc làm CNTT tại đà nẵng, dạy lập trình tại đà nẵng" />
+    <meta name="description"
+        content="iViettech với sứ mệnh là cầu nối giữa nhà trường và doanh nghiệp. Mục tiêu chính của iViettech là giúp các bạn trẻ yêu thích CNTT tìm kiếm việc làm trong ngành phần mềm. iViettech thường xuyên khai giảng các khóa học lập trình tại Đà nẵng như Java, .Net, iOS, Android, PHP và Tester." />
+    <title>iViettech - Trung tâm đào tạo Lập trình viên chuyên nghiệp | chuyên đào tạo các khóa lập trình
+        Java, .Net, Android, iOS, PHP, Tester</title>
+    <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="home.html">
+                    <img src="./pictures/logo-iviettech.png" alt="" class="img__logo">
+                </a>
+            </div>
+            <div class="header__navbar">
+                <ul class="list__navbar">
+                    <li class="navbar__item">
+                        <a href="#">Các khóa học</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">giới thiệu</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">lịch khai giảng</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">trang vàng hv</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">việc làm</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">tin tức</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">blog</a>
+                    </li>
+                </ul>
+                <div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                        <form action="" class="search-desktop">
+                            <input type="text" placeholder="Tìm kiếm">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div>
+                        <a href="../Assignment02/register.html" class="btn-register">đăng ký học</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__navbar__mobile">
+                <span class="icon-mobile icon__search-m">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </span>
+                <span class="icon-mobile icon__bars-m">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+
+            <div class="search-mobile">
+                <form action="">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="navbar__mobile overlay">
+            <div class="navbar__mobile__content">
+                <ul>
+                    <li>
+                        <a href="home.html"><img src="./pictures/logo-iviettech.png" alt=""></a>
+                        <span class="icon-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                    </li>
+                    <li>Các khóa học</li>
+                    <li>Giới thiệu</li>
+                    <li>Lịch khai giảng</li>
+                    <li>Trang vàng HV</li>
+                    <li>Việc làm</li>
+                    <li>Tin tức</li>
+                    <li>Blog</li>
+                </ul>
+                <div>
+                    <button onclick="window.location.href='../Assignment02/register.html'">Đăng ký
+                        học</button>
+                </div>
+            </div>
+        </div>
+        <aside class="banner">
+            <div class="banner__content owl-carousel owl-theme">
+                <div class="banner__img item" data-index="1">
+                    <a href="#"><img src="./pictures/banner-kg-ivt06.jpg" alt=""></a>
+                </div>
+                <div class="banner__img item" data-index="2">
+                    <a href="#"><img src="./pictures/banner-iviettech-2023-1.png" alt=""></a>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <main>
+        <section class="courses">
+            <div class="head">
+                <img src="./pictures/logo-2.png" alt="">
+                <p>các khóa học</p>
+            </div>
+            <ul class="list__courses">
+                <li class="course__item active" data-index="1">khóa học lập trình</li>
+                <li class="course__item" data-index="2">khóa học thiết kế</li>
+                <li class="course__item" data-index="3">khóa học chuyên sâu</li>
+                <li class="course__item" data-index="4">khóa học khác</li>
+            </ul>
+            <div class="course__main container">
+                <div class="course-wrapper active" data-index="1">
+                    <div class="owl-carousel owl-theme course__it">
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/ST-logo-1-500x524.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Kiểm thử phần mềm</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 3 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/NJ-logo.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập trình Node.js – New</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 5 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/PR-logo.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập trình viên chuyên nghiệp</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 8 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/FE-logo-1.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập trình Front End - New</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 5 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/Logo-Khoa-hoc-lap-trinh-Python.png" alt=""
+                                            style="object-position: unset;">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập trình Python chuyên nghiệp</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 8 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/JV-logo-1.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập Trình Java từ A-Z</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/PHP-logo-1.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập Trình PHP & Laravel</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/Automation-Testing-Logo.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Automation Testing</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 3 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-wrapper" data-index="2">
+                    <div class="owl-carousel owl-theme course__design">
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/3d-logo.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Thiết kế 3D Animation</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/icons-thiet-ke-do-hoa.png" alt="">
+                                    </div>
+                                    <div class=" course__description">
+                                        <p class="course__title">Thiết kế đồ họa</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/Interior-Design-icon.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Interior Design</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/UI-UX.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Thiết kế UI/UX</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 3 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-wrapper" data-index="3">
+                    <div class="owl-carousel owl-theme course__intensive">
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/BA.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Phân tích nghiệp vụ(BA)</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 2 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/DevOps-icon.png" alt="">
+                                    </div>
+                                    <div class=" course__description">
+                                        <p class="course__title">DevOps Engineer</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 2 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/PM-Logo.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Quản trị dự án phần mềm</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 2 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 2-4-6</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/AI-Engineer-Course.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Kỹ sư trí tuệ nhân tạo</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 6 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-wrapper" data-index="4">
+                    <div class="owl-carousel owl-theme course__other">
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/c-logo.jpg" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Lập trình cơ bản</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 1 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Tối: 3-5-7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/Ky-su-CNTT-Viet-Nhat-New-Logo.png" alt="">
+                                    </div>
+                                    <div class=" course__description">
+                                        <p class="course__title">Kỹ sư CNTT tài năng Việt - Nhật</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 12 tháng</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Từ T2 - T7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="course__content">
+                                    <div class="img__course">
+                                        <img src="./pictures/logocaodang.png" alt="">
+                                    </div>
+                                    <div class="course__description">
+                                        <p class="course__title">Cao đẳng CNTT</p>
+                                        <p class="course__time">
+                                            <i class="fa-regular fa-clock"></i>
+                                            <span>Thời gian: 2.5 năm</span>
+                                        </p>
+                                        <p class="course__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <span>Suất học: Thứ 2 - Thứ 7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./pictures/p-b1-2.svg" alt="" class="hightlight left">
+            <img src="./pictures/p-b1-1.svg" alt="" class="hightlight right">
+        </section>
+
+        <section class="news">
+            <div class="news-head">
+                <img src="./pictures/logo1.png" alt="">
+                <p>Tin tức mới</p>
+            </div>
+            <div class="news-wrapper container">
+                <div class="news-main">
+                    <div class="img-news-main">
+                        <a href="#">
+                            <img src="./pictures/BIA-VIEC-LAM-IVT-052023-1024x676.jpg" alt="">
+                        </a>
+                    </div>
+                    <p class="news-main-title">
+                        <a href="#">TỐT NGHIỆP LÀ CÓ VIỆC | DANH SÁCH HỌC VIÊN NHẬN ĐƯỢC VIỆC LÀM THÁNG
+                            05.2023
+                        </a>
+                    </p>
+                    <p class="news-main-description">
+                        Trung tâm iViettech xin gửi lời chúc mừng đến tất cả các bạn học viên đã cùng
+                        iViettech hoàn thành khóa học và có được việc làm trong tháng 05/2023...
+                    </p>
+                    <p class="news-main-time">
+                        03/06/2023
+                    </p>
+                </div>
+                <div class="news-other">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="./pictures/BIA-VIEC-LAM-IVT-04-min-300x198.png" alt=""
+                                        class="img-news-other">
+                                </div>
+                                <div>
+                                    <p>TỐT NGHIỆP LÀ CÓ VIỆC | Danh sách cựu học viên có việc làm tháng
+                                        04.2023
+                                    </p>
+                                    <p>15/05/2023</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="./pictures/1-300x181.jpg" alt="" class="img-news-other">
+                                </div>
+                                <div>
+                                    <p>Ngành CNTT Việt Nam dự kiến tăng trưởng tốt hơn đa số nhóm ngành khác
+                                        trong
+                                        năm 2023</p>
+                                    <p>11/05/2023</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <img src="./pictures/PY01a-300x200.jpg" alt="" class="img-news-other">
+                                </div>
+                                <div>
+                                    <p>Khai giảng khóa học lập trình Python đầu tiên (PY01) | iViettech</p>
+                                    <p>22/03/2023</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <p>MỪNG SINH NHẬT THÁNG 3 &ndash; IVIETTECH GIẢM HỌC PHÍ THẢ GA</p>
+                            <p>01/03/2023</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="btn-news-more">
+                <a href="#">XEM THÊM</a>
+            </p>
+            <img src="./pictures/p-b2-2.svg" alt="" class="hightlight left">
+            <img src="./pictures/p-b2-1.svg" alt="" class="hightlight right">
+        </section>
+
+        <section class="schedule">
+            <div class="head">
+                <img src="./pictures/logo-2.png" alt="">
+                <p>lịch khai giảng</p>
+            </div>
+            <ul class="list__courses">
+                <li class="course__item active" data-index="1">khóa học lập trình</li>
+                <li class="course__item" data-index="2">khóa học thiết kế</li>
+                <li class="course__item" data-index="3">khóa học chuyên sâu</li>
+                <li class="course__item" data-index="4">khóa học khác</li>
+            </ul>
+            <div class="schedule__main container">
+                <div class="schedule-wrapper active" data-index="1">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>20-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/c-logo.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình cơ bản</p>
+                                    <p><a href="#" title="Lập trình cơ bản" title="Lập trình cơ bản">Đăng ký
+                                            học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>22-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/NJ-logo.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình Node.js</p>
+                                    <p><a href="#" title="Lập trình Node.js" title="Lập trình Node.js">Đăng ký
+                                            học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>23-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/JV-logo-1.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình Java từ A-Z</p>
+                                    <p><a href="#" title="Lập trình Java từ A-Z"
+                                            title="Lập trình Java từ A-Z">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>26-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/FE-logo-1.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình Front End</p>
+                                    <p><a href="#" title="Lập trình Front End">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>27-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/Logo-Khoa-hoc-lap-trinh-Python.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình Python chuyên nghiệp</p>
+                                    <p><a href="#" title="Lập trình Python chuyên nghiệp">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/Automation-Testing-Logo.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Automation Testing</p>
+                                    <p><a href="#" title="Automation Testing">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/PR-logo.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình viên chuyên nghiệp</p>
+                                    <p><a href="#" title="Lập trình viên chuyên nghiệp">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>11-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/PHP-logo-1.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình web với PHP & Laravel</p>
+                                    <p><a href="#" title="Lập trình web với PHP & Laravel">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="schedule-wrapper" data-index="2">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>27-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/Interior-Design-icon.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Thiết kế nội thất</p>
+                                    <p><a href="#" title="Thiết kế nội thất">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/UI-UX.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Thiết kế UI/UX</p>
+                                    <p><a href="#" title="Thiết kế UI/UX">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/icons-thiet-ke-do-hoa.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Thiết kế đồ họa</p>
+                                    <p><a href="#" title="Thiết kế đồ họa">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>10-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/3d-logo.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Thiết kế 3D Animation</p>
+                                    <p><a href="#" title="Thiết kế 3D Animation">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="schedule-wrapper" data-index="3">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>24-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/PM-Logo.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Quản lý dự án phần mềm</p>
+                                    <p><a href="#" title="Quản lý dự án phần mềm">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/DevOps-icon.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>DevOps Engineer</p>
+                                    <p><a href="#" title="DevOps Engineer">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>03-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/AI-Engineer-Course.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Kỹ sư trí tuệ nhân tạo</p>
+                                    <p><a href="#" title="Kỹ sư trí tuệ nhân tạo">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>10-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 2-4-6</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/BA.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Phân tích nghiệp vụ (BA)</p>
+                                    <p><a href="#" title="Phân tích nghiệp vụ (BA)">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="schedule-wrapper" data-index="4">
+                    <ul class="schedule-list">
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>24-06-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỐI 3-5-7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/c-logo.jpg" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Lập trình cơ bản</p>
+                                    <p><a href="#" title="Lập trình cơ bản">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>10-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>TỪ T2 - T7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/Ky-su-CNTT-Viet-Nhat-New-Logo.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Kỹ sư CNTT tài năng Việt - Nhật</p>
+                                    <p><a href="#" title="Kỹ sư CNTT tài năng Việt - Nhật">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="schedule-item">
+                            <div class="schedule-time">
+                                <div>
+                                    <p>khai giảng</p>
+                                    <p>10-07-2023</p>
+                                </div>
+                                <div>
+                                    <p>lịch học</p>
+                                    <p>THỨ 2 - THỨ 7</p>
+                                </div>
+                            </div>
+                            <div class="schedule-content">
+                                <div class="schedule-img">
+                                    <img src="./pictures/logocaodang.png" alt="">
+                                </div>
+                                <div class="schedule-control">
+                                    <p>Cao đẳng CNTT</p>
+                                    <p><a href="#" title="Cao đẳng CNTT">Đăng ký học</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="schedule-more">Xem thêm</a>
+            <img src="./pictures/p-b3-1.svg" alt="" class="hightlight left">
+            <img src="./pictures/p-b3-2.svg" alt="" class="hightlight right">
+        </section>
+
+        <section class="feedback container">
+            <div class="feedback_content">
+                <div class="head__feedback">
+                    <img src="./pictures/logo1.png" alt="">
+                    <p>Học viên nói về trung tâm!</p>
+                </div>
+                <ul class="list__feedback owl-carousel owl-theme">
+                    <li class="item__feedback item">
+                        <p class="content__feedback">Sau khi hoàn thành khoá học lập trình viên chuyên nghiệp
+                            ở
+                            trung tâm em đã nắm kiến thức trọng tâm của ngôn ngữ Java. Nhờ sự hỗ trợ tìm việc
+                            làm
+                            của thầy Việt và Cô Lan em đã tìm được công việc phù hợp với bản thân ngay sau tốt
+                            nghiệp. <br>
+                            Em xin gửi lời cảm ơn chân thành và sâu sắc đến 2 thầy Trần Đức Linh, thầy Lê Đức
+                            Anh
+                            đã giảng dạy, support nhiệt tình trong suốt khoá học, và thầy Việt và cô Lan đã tư
+                            vấn, hỗ trợ việc làm cho em ạ. <br>
+                            Em xin chúc trung tâm ngày càng phát triển, tạo môi trường học tập tốt cho các bạn
+                            có
+                            đam mê với ngành phần mềm.
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Thao-Truong-1.jpg" alt="">
+                            <p>TRƯƠNG HỒ ĐÔNG THẢO_LTVCN JAVA_CÔNG TY SDT</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            Lời đầu tiên em xin gửi lời cảm ơn đến quý thầy cô IViettech đã cất công truyền
+                            đạt
+                            kiến thức đến người học trái ngành và gần tiếp cận độ tuổi 3x như em. <br>
+                            Quyết định chuyển ngành ở tuổi này cũng làm em suy nghĩ rất nhiều, nhưng nhờ có sự
+                            tư
+                            vấn và động viên của thầy cô, và với đam mê lập trình của mình, chỉ sau 8 tháng
+                            học
+                            khoá lập trình viên chuyên nghiệp JAVA, em đã nhận được cơ hội việc làm mong muốn.
+                            <br>
+                            Em xin gửi lời cảm ơn đến thầy Trần Đức Linh, thầy Lê Đức Anh đã giảng dạy, hỗ trợ
+                            em
+                            trong suốt khoá học, cảm ơn thầy Việt và cô Lan đã tư vấn, hỗ trợ việc làm cho em
+                            ạ.
+                            Kính chúc quý thầy cô và trung tâm sẽ càng ngày càng phát triển và gặt hái nhiều
+                            thành
+                            công hơn! <br>
+                            Em xin chân thành cảm ơn!! <br>
+                            Chúc các bạn học viên đã và đang tham gia học tập ở IViettech sẽ thành công!!!
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Hau-Huynh-2.png" alt="">
+                            <p>HUỲNH TRỌNG HẬU_LẬP TRÌNH VIÊN CHUYÊN NGHIỆP JAVA_CÔNG TY FSOFTT</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            Đầu tiên em xin gửi lời cảm ơn sâu sắc đến thầy Hải, thầy Tuấn đã giảng dạy nhiệt
+                            tình
+                            trong thời gian em tham gia khoá học ở Iviettech.
+                            <br>
+                            Em cảm ơn thầy Việt, cô Lan đã truyền đạt kinh nghiệm, củng cố lại kiến thức, hỗ
+                            trợ
+                            em trong quá trình tìm việc.
+                            Thật sự may mắn khi em được biết đến iViettech, và cảm thấy rất vui khi mình đã
+                            chọn
+                            đúng nơi để giúp bản thân trao dồi thêm những kiến thức bổ ích. Trong thời gian
+                            tham
+                            gia khóa học, em hài lòng với mọi thứ tại đây, từ cơ sở vật chất, chương trình
+                            học,
+                            thái độ của các chị giáo vụ, sự hỗ trợ của cô Lan – thầy Việt, và đặt biệt là sự
+                            giảng
+                            dạy hết sức tận tâm của các thầy.
+                            <br>
+                            Sau khi tốt nghiệp tại trung tâm, em đã có được một hành trang tốt để thực hiện
+                            những
+                            mục tiêu của mình trong tương lai.
+                            <br>
+                            Cuối cùng, em kính chúc quý thầy cô, anh chị thật nhiều sức khỏe, trung tâm ngày
+                            càng
+                            phát triển hơn nữa!
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Ni-1.png" alt="">
+                            <p>NGUYỄN THỊ BÍCH NI – LẬP TRÌNH FRONTEND – GLOBAL DESIGN IT</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            —————- IVIETTECH —————— <br>
+                            ————– GOOD CHOICE ————— <br>
+                            Sẽ là một lựa chọn rất hợp lý nếu: <br>
+                            – Bạn muốn có một môi trường đào tạo IT chuyên nghiệp <br>
+                            – Bạn muốn chuyển ngành nghề <br>
+                            – Bạn muốn cải thiện thu nhập <br>
+                            – Bạn muốn đảm bảo đầu ra có việc ngay <br>
+                            – Bạn muốn thay đổi tương lai <br>
+                            ... <br>
+                            Đó là những điều tôi muốn, tôi đã chọn IViettech và tôi đã làm được. <br>
+                            Các bạn thì sao?
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Thien-1.png" alt="">
+                            <p>NGUYỄN ĐỨC THIỆN – LẬP TRÌNH VIÊN CHUYÊN NGHIỆP JAVA – AXON ACTIVE</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            Trung tâm Iviettech là lựa chọn hợp lí cho các bạn muốn theo đuổi nghành CNTT.
+                            Trung
+                            tâm có đội ngũ giảng viên có chuyên môn, có kinh nghiệm và rất nhiệt tình trong
+                            quá
+                            trình giảng dạy. Ngoài ra, trung tâm Iviettech còn có chế độ hỗ trợ tìm việc làm
+                            sau
+                            khi tốt nghiệp rất tốt. <br>
+                            Đến với trung tâm IViettech, em đã được thầy Vũ, cô Băng Châu truyền đạt những
+                            kiến
+                            thức cần thiết cho ngành học cũng như công việc của mình sau này, được chia sẻ
+                            những
+                            kinh nghiệm khi đi làm; được cô Lan tư vấn và hỗ trợ tận tình trong quá trình làm
+                            CV
+                            và tìm việc làm; được thầy Việt củng cố kiến thức, hướng dẫn kỹ năng khi đi phỏng
+                            vấn.
+                            <br>
+                            Nhờ sự giúp đỡ và hỗ trợ tận tình của cô Lan và thầy Việt nên em đã có việc làm
+                            sau
+                            khi hoàn thành khóa học. Em xin gửi lời cảm ơn đến thầy Vũ và cô Băng Châu đã rất
+                            nhiệt tình trong quá trình giảng dạy. Em xin gửi lời cảm ơn sâu sắc đến thầy Việt
+                            và
+                            cô Lan, thầy cô đã rất tận tâm đối với học viên. Em xin kính chúc quý thầy cô sức
+                            khỏe
+                            và chúc trung tâm ngày càng phát triển và vững mạnh, đào tạo được thêm nhiều học
+                            viên
+                            hơn nữa. <br>
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/ThiThuy-1.png" alt="">
+                            <p>NGUYỄN THỊ THI THÙY_TESTER_FSOFT</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            Em xin gởi lời cảm ơn đến các thầy cô và các anh trợ giảng đã giảng dạy nhiệt tình
+                            trong thời gian em tham gia khoá học ở Iviettech. Cảm ơn tất cả mọi thành viên của
+                            Iviettech đã hổ trợ chúng em trong suốt thời gian qua. (Các anh hổ trợ kỹ thuật,
+                            chị
+                            lễ tân kiêm thu ngân và bán sách, bác giữ xe…) <br>
+                            Trung tâm Iviettech là lựa chọn hợp lí cho các bạn đang muốn theo đuổi nghành
+                            CNTT.
+                            Trung tâm có đội ngũ giảng viên chuyên môn cao, nhiệt tình chỉ dạy cho học viên.
+                            Kiến
+                            thức giảng dạy bám sát thực tế.
+                            <br>
+                            Bên cạnh việc giảng dạy thì trung tâm cũng có những buổi ngoại khoá tham quan các
+                            công
+                            ty phần mền trên địa bàn thành phố, giúp cho học viên được tham quan môi trường
+                            làm
+                            việc và học hỏi thêm nhiều điều.
+                            <br>
+                            Ngoài ra chế độ hỗ trợ tìm việc làm sau khi tốt nghiệp rất tốt.
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Hiep.png" alt="">
+                            <p>PHAN ĐÌNH HIỆP_LTV Chuyên nghiệp JAVA_FSOFT</p>
+                        </div>
+                    </li>
+                    <li class="item__feedback item">
+                        <p class="content__feedback">
+                            Đầu tiên em xin gởi lời cảm ơn sâu sắc đến các thầy cô đã giảng dạy nhiệt tình
+                            trong
+                            thời gian em tham gia khoá học ở Iviettech. Em cảm ơn thầy Việt đã truyền đạt kinh
+                            nghiệm, củng cố kiến thức giúp em tự tin hơn trong phỏng vấn. Em cảm ơn cô Lan đã
+                            tận
+                            tình giúp em trong quá trình xin việc. <br>
+                            Trung tâm Iviettech là lựa chọn hợp lí cho các bạn muốn theo đuổi nghành CNTT.
+                            Trung
+                            tâm có đội ngũ giảng viên chuyên môn cao, nhiệt tình chỉ dạy cho học viên. Ngoài
+                            ra
+                            chế độ hỗ trợ tìm việc làm sau khi tốt nghiệp rất tốt. <br>
+                        </p>
+                        <div class="author__feedback">
+                            <img src="./pictures/Quy-1.png" alt="">
+                            <p>TRẦN HƯNG QUÝ – KHÓA HỌC PHP&MYSQL- RIKKEISOFT</p>
+                        </div>
+                    </li>
+                </ul>
+                <img src="./pictures/p-b1-2.svg" alt="" class="hightlight left">
+                <img src="./pictures/p-b4-2.svg" alt="" class="hightlight right">
+            </div>
+        </section>
+
+        <section class="partner">
+            <p>đối tác tuyển dụng</p>
+            <ul class="list__partner">
+                <li><img src="./pictures/iviettech-partner-8.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-1.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-2.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-3.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-4.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-5.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-6.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-7.png" alt=""></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <img src="./pictures/logo-w.png" alt="">
+                <p>Kết nối với chúng tôi: &nbsp;
+                    <span><i class="fa-brands fa-square-facebook"></i></span>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                </p>
+                <p>Bản quyền thuộc về IViecttech &copy; 2022</p>
+            </div>
+            <div>
+                <p>
+                    <span><i class="fa-solid fa-globe"></i></span>
+                    <span>
+                        92 Quang Trung, P. Thạch Thang, Q. Hải Châu, TP. Đà Nẵng
+                    </span>
+                </p>
+                <p>
+                    <span><i class="fa-solid fa-phone-volume"></i></span>
+                    <a href="tel:02363 888 279">02363 888 279</a>
+                </p>
+                <p>
+                    <span><i class="fa-regular fa-address-book"></i></span>
+                    <a href="mailto:contact@iviettech.vn">contact@iviettech.vn</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <script src="main.js"></script>
+    <script src="owlcarousel.js"></script>
+</body>
+
+</html>

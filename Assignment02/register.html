@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Lập trình viên, Lập trình Java, Lập trình .Net, Lập trình Web, PHP, MySQL, Lập trình di động, Android, iOS, mobile, tester, Kiểm thử phần mềm, thiết kế phần mềm, kỹ sư cầu nối, da nang, đà nẵng, học lập trình tại đà nẵng, hoc lap trinh tai da nang, nơi tốt nhất học lập trình tại đà nẵng, trung tâm đào tạo lập trình tại đà nẵng, đào tạo lập trình viên tại đà nẵng, việc làm CNTT tại đà nẵng, dạy lập trình tại đà nẵng" />
+    <meta name="description"
+        content="iViettech với sứ mệnh là cầu nối giữa nhà trường và doanh nghiệp. Mục tiêu chính của iViettech là giúp các bạn trẻ yêu thích CNTT tìm kiếm việc làm trong ngành phần mềm. iViettech thường xuyên khai giảng các khóa học lập trình tại Đà nẵng như Java, .Net, iOS, Android, PHP và Tester." />
+    <title>iViettech - Trung tâm đào tạo Lập trình viên chuyên nghiệp | chuyên đào tạo các khóa lập trình
+        Java, .Net, Android, iOS, PHP, Tester</title>
+    <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="../Assignment01/home.html">
+                    <img src="./pictures/logo-iviettech.png" alt="" class="img__logo">
+                </a>
+            </div>
+            <div class="header__navbar">
+                <ul class="list__navbar">
+                    <li class="navbar__item">
+                        <a href="#">Các khóa học</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">giới thiệu</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">lịch khai giảng</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">trang vàng hv</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">việc làm</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">tin tức</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">blog</a>
+                    </li>
+                </ul>
+                <div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                        <form action="" class="search-desktop">
+                            <input type="text" placeholder="Tìm kiếm">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div>
+                        <a href="../Assignment02/register.html" class="btn-register">đăng ký học</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__navbar__mobile">
+                <span class="icon-mobile icon__search-m">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </span>
+                <span class="icon-mobile icon__bars-m">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+
+            <div class="search-mobile">
+                <form action="">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="navbar__mobile overlay">
+            <div class="navbar__mobile__content">
+                <ul>
+                    <li>
+                        <a href="../Assignment01/home.html"><img src="./pictures/logo-iviettech.png"
+                                alt=""></a>
+                        <span class="icon-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                    </li>
+                    <li>Các khóa học</li>
+                    <li>Giới thiệu</li>
+                    <li>Lịch khai giảng</li>
+                    <li>Trang vàng HV</li>
+                    <li>Việc làm</li>
+                    <li>Tin tức</li>
+                    <li>Blog</li>
+                </ul>
+                <div>
+                    <button onclick="window.location.href='../Assignment02/register.html'">Đăng ký
+                        học</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="banner-content container">
+                <a href="#">Trang chủ</a> <span> » </span> <a href="#">Đăng ký khóa học - Hội thảo</a>
+                <h1>đăng ký học</h1>
+            </div>
+        </div>
+        <section class="container form-register">
+            <form action="" id="register">
+                <h3>Đăng ký học</h3>
+                <div class="form-control">
+                    <input type="text" name="fullname" placeholder="Họ và tên" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <input type="number" name="phone" placeholder="Số điện thoại" required>
+                </div>
+                <div class="form-control">
+                    <select name="course" required>
+                        <option value="">Chọn khóa học</option>
+                        <option value="">Lập trình cơ bản</option>
+                        <option value="">Kiểm thử phần mềm</option>
+                        <option value="">Automation Testing</option>
+                        <option value="">Lập trình Front End</option>
+                        <option value="">Lập trình Python</option>
+                        <option value="">Lập trình Node.js</option>
+                        <option value="">Lập trình PHP - Laravel</option>
+                        <option value="">Lập trình Java từ A-Z</option>
+                        <option value="">Lập trình viên chuyên nghiệp</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <textarea name="note" rows="4" placeholder="Lời nhắn của bạn"></textarea>
+                </div>
+                <div class="form-control">
+                    <button type="submit">Đăng ký</button>
+                </div>
+                <p>
+                    Đăng ký trước khai giảng, Giảm 10% học phí tháng đầu.
+                </p>
+            </form>
+            <div>
+                <div>
+                    <p class="heading">Hỏi tư vấn viên</p>
+                    <img src="./pictures/dang-ky.png" alt="">
+                    <p class="text-description">
+                        Nếu bạn cần được hỗ trợ, hãy liên hệ ngay với tư vấn viên qua số điện thoại:
+                    </p>
+                    <p>
+                        <a href="tel:02363-888-279">02363-888-279</a>
+                    </p>
+                    <div class="socials">
+                        <p class="text-description">Hoặc kết nối qua mạng:</p>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="./pictures/p-t-1.svg" alt="" class="hightlight left">
+            <img src="./pictures/p-t-3.svg" alt="" class="hightlight left">
+            <img src="./pictures/p-t-2.svg" alt="" class="hightlight right">
+            <img src="./pictures/p-t-4.svg" alt="" class="hightlight right">
+        </section>
+
+        <section class="partner">
+            <p>đối tác tuyển dụng</p>
+            <ul class="list__partner">
+                <li><img src="./pictures/iviettech-partner-8.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-1.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-2.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-3.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-4.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-5.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-6.png" alt=""></li>
+                <li><img src="./pictures/iviettech-partner-7.png" alt=""></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <img src="./pictures/logo-w.png" alt="">
+                <p>Kết nối với chúng tôi: &nbsp;
+                    <span><i class="fa-brands fa-square-facebook"></i></span>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                </p>
+                <p>Bản quyền thuộc về IViecttech &copy; 2022</p>
+            </div>
+            <div>
+                <p>
+                    <span><i class="fa-solid fa-globe"></i></span>
+                    <span>
+                        92 Quang Trung, P. Thạch Thang, Q. Hải Châu, TP. Đà Nẵng
+                    </span>
+                </p>
+                <p>
+                    <span><i class="fa-solid fa-phone-volume"></i></span>
+                    <a href="tel:02363 888 279">02363 888 279</a>
+                </p>
+                <p>
+                    <span><i class="fa-regular fa-address-book"></i></span>
+                    <a href="mailto:contact@iviettech.vn">contact@iviettech.vn</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
